@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import Imageupload from './upload/image'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1>Hi ,this is React-App Upload a file</h1>
+     <h2>NOTE</h2>
+     <p>without a choose  file do not click Submit button </p>
+    <Imageupload/>
     </div>
   );
 }
