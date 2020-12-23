@@ -6,7 +6,7 @@ function App() {
     <div className="App">
      <h1>Hi ,this is React-App Upload a file</h1>
      <h2>NOTE</h2>
-     <p>without a choose  file do not click Submit button </p>
+     <h3>without a choose  file do not click Submit button </h3>
     <Imageupload/>
     </div>
   );
